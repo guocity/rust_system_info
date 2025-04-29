@@ -30,3 +30,6 @@ jobs:
         with:
           command: build
           args: --release
+          
+      - name: Run the program
+        run: ./target/release/rust_system_info
